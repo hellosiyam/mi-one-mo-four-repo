@@ -35,14 +35,14 @@ footer{
 *{
     margin-bottom: 8px;
 }
-li{
+/* li{
     display: inline;
 }
 
 a{
     text-decoration: none;
     margin: 24px;
-}
+} */
 footer{
     text-align: center;
     margin-bottom: auto;
