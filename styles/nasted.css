@@ -1,0 +1,52 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 24px;
+    padding: 4px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: bisque;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: solid black;
+    padding: 4px 8px;
+}
+
+/* nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(191, 136, 68);
+    padding: 4px;
+}
+nav li:hover .dropdown{
+    display: block;
+} */
+
+/* nav li .drop{
+    display: none;
+    position: absolute;
+    background-color: blue;
+    padding-left: 8px;
+}
+nav li:hover .drop{
+    display: block;
+} */
+nav li .drop {
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    padding: 4px;
+}
+nav li:hover > .drop{
+    display: block;
+}
