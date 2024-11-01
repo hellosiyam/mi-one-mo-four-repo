@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="shortcut icon" href="images/boat.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/blog.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_blank">Home</a></li>
+                <li><a href="blog.html" target="_blank">Blogs</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="form.html" target="_blank">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Pleas fill The Form </h2>
+        <form>
+            <label for="name">Enter your name:
+                <input id="name" type="text" placeholder="Enter your name">
+            </label>
+            <label for="email">Enter your email:
+                <input id="email" type="text" placeholder="Enter your email">
+            </label>
+            <label for="phone">Enter your phone:
+                <input id="phone" type="text" placeholder="Enter your phone">
+            </label>
+            <fieldset>
+                <legend>Select The one</legend>
+                <label for="vapa">
+                    <input type="radio" name="Pitha" id="vapa">Vapa Pitha
+                </label>
+                <label for="chytoi">
+                    <input type="radio" name="Pitha" id="chytoi"> Chytoi Pitha
+                </label>
+                <label for="puri">
+                    <input type="radio" name="Pitha" id="puri"> puri Pitha
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one more vorta</legend>
+                <label for="Sorish">
+                    <input type="checkbox" name="vorta" id="Sorish">Sorish
+                </label>
+                <label for="alou">
+                    <input type="checkbox" name="vorta" id="alou">alou
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">shutki
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Spical Instraction
+                </legend>
+                <textarea name="text aria" id="text" cols="30" rows="5" placeholder="Give your Instraction"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
